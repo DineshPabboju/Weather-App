@@ -60,11 +60,11 @@ async function updateWeatherInfo(city){
     } = weatherData;
 
     countryName.textContent = country;
-    temperatureTxt.textContent = `${Math.round(temp)} °C`;
+    temperatureTxt.textContent = `${Math.round(temp)}°C`;
     currDateTxt.textContent = getCurrentDate();
     console.log(getCurrentDate());
     weatherTxt.textContent = `${main}`
-    humidityValue.textContent = `${humidity} %`;
+    humidityValue.textContent = `${humidity}%`;
     windValue.textContent = `${speed} km/h`;
     weatherImage.src = `assets/weather/${getWeatherIcon(id)}`;
 
