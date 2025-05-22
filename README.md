@@ -14,7 +14,7 @@ A responsive and easy-to-use weather app built with HTML, CSS, and JavaScript. I
 ## 📸 Screenshots
 
 ### 🌍 Home Page
-![Home](Preview/preview1.png)  
+![Home](Preview/preview2.png)  
 
 
 ## 🚀 Features
@@ -41,15 +41,15 @@ A responsive and easy-to-use weather app built with HTML, CSS, and JavaScript. I
 ```bash
 git clone https://github.com/DineshPabboju/Weather-App.git
 cd Weather-App
-
+```
 
 🔑 Setup OpenWeatherMap API Key
 Visit OpenWeatherMap and sign up for a free API key.
 
 ## Replace the placeholder in script.js:
-
+```bash
 const apiKey = "YOUR_API_KEY"; // Replace with your actual API key
-
+```
 📄 License
 This project is licensed under the MIT License.
 
